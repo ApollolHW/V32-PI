@@ -3,7 +3,7 @@
 ## Equipe AKA
 
 **Nome da equipe:** AGILE KALASHNIKOV 
-**Turma:** Terceiro ano Matutino
+**Turma:** Matutino
 **Professor técnico:** Gustavo Lima
 
 ### Integrantes e áreas de atuação
