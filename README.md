@@ -3,8 +3,8 @@
 ## Equipe
 
 **Nome da equipe:** Equipe XX  
-**Turma:** ____________________  
-**Professor técnico:** ____________________
+**Turma:** Terceiro ano Matutino
+**Professor técnico:** Gustavo Lima
 
 ### Integrantes e áreas de atuação
 
@@ -14,7 +14,7 @@
 | Nome 2 | Mecânica | Chassi, direção, transmissão e montagem |
 | Nome 3 | Projeto e documentação | Arquitetura, desenhos, organização da documentação |
 | Nome 4 | Eletrônica e integração elétrica | Alimentação, drivers, motores, sensores e conexões |
-| Nome 5 | Software e controle | Comunicação, controle, sensores e automação |
+| Programador | Software e controle | Comunicação, controle, sensores e automação |
 
 > As áreas acima indicam a responsabilidade principal de cada integrante, mas o trabalho pode ser compartilhado entre a equipe.
 
@@ -33,7 +33,7 @@ Descrever, de forma objetiva, a solução escolhida pela equipe.
 Exemplo:
 
 - arquitetura de tração: diferencial com dois motores;
-- direção: ____________________;
+- direção: Caixa de direção usando servo motor e haste de aluminio;
 - controlador principal: ____________________;
 - driver de motores: ____________________;
 - câmera embarcada: ____________________;
