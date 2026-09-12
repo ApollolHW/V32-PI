@@ -1,8 +1,8 @@
 # Projeto Integrador — Competição de Carrinhos
 
-## Equipe
+## Equipe AKA
 
-**Nome da equipe:** Equipe XX  
+**Nome da equipe:** AGILE KALASHNIKOV 
 **Turma:** Terceiro ano Matutino
 **Professor técnico:** Gustavo Lima
 
