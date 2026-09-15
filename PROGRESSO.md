@@ -13,12 +13,8 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 ## Planejado
 
 - Definir a arquitetura geral do veículo.
-- Escolher a arquitetura de tração e direção.
-- Elaborar o primeiro diagrama elétrico.
 - Criar a estrutura inicial do repositório.
 - Arquitetura geral definida.
-- Definida tração com dois motores DC.
-- Criado diagrama elétrico inicial.
 - Debate entre usar arduino ou ESP32
 
 ## Concluído
@@ -57,9 +53,10 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Planejado
 
-- ____________________
-- ____________________
-- ____________________
+- Escolher a arquitetura de tração e direção.
+- Elaborar o primeiro diagrama elétrico.
+- Definida tração com dois motores DC.
+- Criado diagrama elétrico inicial.
 
 ## Concluído
 
