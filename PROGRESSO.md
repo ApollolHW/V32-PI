@@ -56,7 +56,6 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 - Escolher a arquitetura de tração e direção.
 - Elaborar o primeiro diagrama elétrico.
 - Definida tração com dois motores DC.
-- Criado diagrama elétrico inicial.
 
 ## Concluído
 
