@@ -2,7 +2,7 @@
 
 ## Equipe AKA
 
-**Nome da equipe:** AGILE KALASHNIKOV 
+**Nome da equipe:** VOLGA 32
 **Turma:** Matutino
 **Professor técnico:** Gustavo Lima
 
