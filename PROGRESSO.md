@@ -16,12 +16,13 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 - Escolher a arquitetura de tração e direção.
 - Elaborar o primeiro diagrama elétrico.
 - Criar a estrutura inicial do repositório.
-
-## Concluído
-
 - Arquitetura geral definida.
 - Definida tração com dois motores DC.
 - Criado diagrama elétrico inicial.
+- Debate entre usar arduino ou ESP32
+
+## Concluído
+
 - Repositório organizado com `README.md`, `PLANEJAMENTO.md` e `PROGRESSO.md`.
 
 ## Não concluído
@@ -34,15 +35,14 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Decisões técnicas da semana
 
-- A equipe decidiu comparar duas opções de driver antes da montagem definitiva.
-- Foi decidido manter o ESP32 como controlador principal.
+- A equipe decidiu comparar duas opções de driver antes da montagem definitiva.-
 
 ## Testes realizados
 
 | Teste | Resultado |
 |---|---|
-| Alimentação do ESP32 em bancada | Funcionamento normal |
-| Teste individual dos motores | Ambos funcionaram |
+| Alimentação do ESP32 em bancada | N/A |
+| Teste individual dos motores | N/A |
 
 ## Próximas ações
 
