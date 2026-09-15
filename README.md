@@ -106,7 +106,7 @@ Descrever os principais pontos ainda não resolvidos.
 
 O planejamento semanal da equipe está disponível em:
 
-[`PLANEJAMENTO`](https://drive.google.com/file/d/15BtMBWF7vAIDOCuJR9LVeYASLSW_6Q8U/view?usp=sharing)
+[`PLANEJAMENTO`]([https://drive.google.com/file/d/15BtMBWF7vAIDOCuJR9LVeYASLSW_6Q8U/view?usp=sharing](https://drive.google.com/file/d/15BtMBWF7vAIDOCuJR9LVeYASLSW_6Q8U/view?usp=sharing))
 
 O registro semanal de atividades está disponível em:
 
