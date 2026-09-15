@@ -1,6 +1,6 @@
 # Projeto Integrador — Competição de Carrinhos
 
-## Equipe AKA
+## Equipe V32
 
 **Nome da equipe:** VOLGA 32
 **Turma:** Matutino
@@ -10,11 +10,11 @@
 
 | Integrante | Área principal | Responsabilidades |
 |---|---|---|
-| Nome 1 | Piloto e calibração | Testes de dirigibilidade, calibração e operação |
-| Nome 2 | Mecânica | Chassi, direção, transmissão e montagem |
-| Nome 3 | Projeto e documentação | Arquitetura, desenhos, organização da documentação |
-| Nome 4 | Eletrônica e integração elétrica | Alimentação, drivers, motores, sensores e conexões |
-| Programador | Software e controle | Comunicação, controle, sensores e automação |
+| Miguel Gustavo | Piloto e calibração | Testes de dirigibilidade, calibração e operação |
+| Matheus Castro | Mecânica | Chassi, direção, transmissão e montagem |
+| William Henrique | Projeto e documentação | Arquitetura, desenhos, organização da documentação |
+| Renner Rufino & Marcos Vinícius | Eletrônica e integração elétrica | Alimentação, drivers, motores, sensores e conexões |
+| Lucas Vinícius | Software e controle | Comunicação, controle, sensores e automação |
 
 > As áreas acima indicam a responsabilidade principal de cada integrante, mas o trabalho pode ser compartilhado entre a equipe.
 
