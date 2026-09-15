@@ -34,8 +34,8 @@ Exemplo:
 
 - arquitetura de tração: diferencial com dois motores;
 - direção: Caixa de direção usando servo motor e haste de aluminio;
-- controlador principal: ____________________;
-- driver de motores: ____________________;
+- controlador principal:Esp32;
+- driver de motores: módulo ponte HL298N;
 - câmera embarcada: ____________________;
 - estratégia de alimentação: ____________________;
 - sensores adicionais, se houver: ____________________;
