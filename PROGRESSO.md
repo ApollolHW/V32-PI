@@ -12,13 +12,11 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Planejado
 
-- Definir a arquitetura geral do veículo.
-- Criar a estrutura inicial do repositório.
-- Arquitetura geral definida.
 - Debate entre usar arduino ou ESP32
 
 ## Concluído
 
+- Criar a estrutura inicial do repositório.
 - Repositório organizado com `README.md`, `PLANEJAMENTO.md` e `PROGRESSO.md`.
 
 ## Não concluído
@@ -37,8 +35,9 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 | Teste | Resultado |
 |---|---|
-| Alimentação do ESP32 em bancada | N/A |
-| Teste individual dos motores | N/A |
+| Alimentação do ESP32 em bancada | SUCESSO |
+| Teste individual dos motores | SUCESSO |
+| Integração ESP32,Ponte H e Motores DC | N/A |
 
 ## Próximas ações
 
@@ -56,6 +55,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 - Escolher a arquitetura de tração e direção.
 - Elaborar o primeiro diagrama elétrico.
 - Definida tração com dois motores DC.
+- Definir a arquitetura geral do veículo
 
 ## Concluído
 
