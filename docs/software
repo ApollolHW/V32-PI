@@ -1,1 +1,4 @@
+LOG
 
+Incialmente, problemas com driver do hardware, impossível reconhecer o esp32, impedindo a comunicação, mas foi resolvido instalando os driver's.
+1. Problemas relacionados a "Hard Reset"
