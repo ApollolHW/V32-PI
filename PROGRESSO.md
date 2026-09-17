@@ -37,11 +37,12 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 |---|---|
 | Alimentação do ESP32 em bancada | SUCESSO |
 | Teste individual dos motores | SUCESSO |
-| Integração ESP32,Ponte H e Motores DC | N/A |
+| Integração ESP32,Ponte H e Motores DC | FRACASSO |
 
 ## Próximas ações
 
 - Medir a corrente dos motores.
+- Aprender soldagem eletrnônica
 - Definir o driver de potência.
 - Iniciar montagem mecânica.
 - Implementar recepção dos comandos UDP.
@@ -55,7 +56,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 - Escolher a arquitetura de tração e direção.
 - Elaborar o primeiro diagrama elétrico.
 - Definida tração com dois motores DC.
-- Definir a arquitetura geral do veículo
+- Definir a arquitetura geral do veículo.
 
 ## Concluído
 
