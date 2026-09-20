@@ -21,16 +21,18 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Não concluído
 
-- Escolha definitiva do driver de motores.
+
 
 ## Problemas ou impedimentos
 
 - Os pinos digitais do ESP32 nao respondem, ainda é preciso saber se a causa é a IDE ou problemas físicos.
 - O driver inicialmente escolhido pode não suportar a corrente de partida dos motores.
+- Mal contato nas terminações da ponte h
 
 ## Decisões técnicas da semana
 
 - A equipe decidiu comparar duas opções de driver antes da montagem definitiva.-
+- Alteração no chassi
 
 ## Testes realizados
 
