@@ -25,6 +25,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Problemas ou impedimentos
 
+- Os pinos digitais do ESP32 nao respondem, ainda é preciso saber se a causa é a IDE ou problemas físicos.
 - O driver inicialmente escolhido pode não suportar a corrente de partida dos motores.
 
 ## Decisões técnicas da semana
@@ -55,8 +56,8 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 - Escolher a arquitetura de tração e direção.
 - Elaborar o primeiro diagrama elétrico.
-- Definida tração com dois motores DC.
 - Definir a arquitetura geral do veículo.
+- Realizar testes no ESP32
 
 ## Concluído
 
