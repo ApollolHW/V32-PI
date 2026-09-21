@@ -82,7 +82,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 | Teste | Resultado |
 |---|---|
-| ____________________ | ____________________ |
+| __________Dois motores na ponte H__________ | ______Sucesso______________ |
 
 ## Próximas ações
 
