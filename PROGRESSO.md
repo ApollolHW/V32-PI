@@ -40,7 +40,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 |---|---|
 | Alimentação do ESP32 em bancada | SUCESSO |
 | Teste individual dos motores | SUCESSO |
-| Integração ESP32,Ponte H e Motores DC | FRACASSO |
+| Integração ESP32,Ponte H e Motores DC | SUCESSO |
 
 ## Próximas ações
 
@@ -68,7 +68,9 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Não concluído
 
-- ____________________
+- ___Escolher a arquitetura de tração e direção._________________
+-  Elaborar o primeiro diagrama elétrico
+-  Definir a arquitetura geral do veículo
 
 ## Problemas ou impedimentos
 
@@ -83,6 +85,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 | Teste | Resultado |
 |---|---|
 | __________Dois motores na ponte H__________ | ______Sucesso______________ |
+| Realizar testes no ESP32 | Sucesso|
 
 ## Próximas ações
 
