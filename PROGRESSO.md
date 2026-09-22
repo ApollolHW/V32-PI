@@ -85,7 +85,8 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 | Teste | Resultado |
 |---|---|
 | __________Dois motores na ponte H__________ | ______Sucesso______________ |
-| Realizar testes no ESP32 | Sucesso|
+| __________Upload do code no ESP__________ | ______Sucesso______________ |
+| Integração ESP32,Ponte H e Motores DC | SUCESSO |
 
 ## Próximas ações
 
