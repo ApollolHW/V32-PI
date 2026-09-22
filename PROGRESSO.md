@@ -8,7 +8,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ---
 
-# Semana 1 — 16/09/2026 a 22/09/2026dd
+# Semana 1 — 16/09/2026 a 22/09/2026
 
 ## Planejado
 
