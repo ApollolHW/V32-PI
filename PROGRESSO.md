@@ -63,8 +63,10 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Concluído
 
-- ____________________
-- ____________________
+- Realizar testes no ESP32
+- Usar dois motores na ponte h
+- Exercer a logica PWM nos motores
+- Soldagem eletrônica
 
 ## Não concluído
 
@@ -74,24 +76,29 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Problemas ou impedimentos
 
-- ____________________
+- Necessidade das pilhas para alimentação embarcada
 
 ## Decisões técnicas da semana
 
-- ____________________
+- Orientação de trabalhar na base do projeto
+- Desenvolvimento do novo chassi
 
 ## Testes realizados
 
 | Teste | Resultado |
 |---|---|
-| __________Dois motores na ponte H__________ | ______Sucesso______________ |
-| __________Upload do code no ESP__________ | ______Sucesso______________ |
+| __________Dois motores na ponte H__________ | SUCESSO |
+| __________Upload do code no ESP__________ | SUCESSO |
 | Integração ESP32,Ponte H e Motores DC | SUCESSO |
 
 ## Próximas ações
 
-- ____________________
-- ____________________
+- Desenvolver o controle remoto
+- Montar o circuito em cima do chassi
+- Organizar as documentações
+- Medir a corrente dos motores.
+- Definir o driver de potência.
+- Aprender comandos UDP.
 
 ---
 
