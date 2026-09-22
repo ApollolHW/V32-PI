@@ -106,7 +106,8 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Planejado
 
-- ____________________
+- Padronizar com o orientador sobre a planilha e documentação
+- 
 
 ## Concluído
 
