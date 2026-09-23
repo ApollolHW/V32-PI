@@ -36,7 +36,7 @@ Exemplo:
 - direção: Caixa de direção usando servo motor e haste de aluminio;
 - controlador principal:Esp32;
 - driver de motores: módulo ponte HL298N;
-- câmera embarcada: ____________________;
+- câmera embarcada: câmera a9 wifi ;
 - estratégia de alimentação: ____________________;
 - sensores adicionais, se houver: ____________________;
 - recursos de automação, se houver: ____________________.
