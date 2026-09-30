@@ -68,6 +68,10 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 - Exercer a logica PWM nos motores
 - Soldagem eletrônica
 
+
+- Possivelmente compraremos outra ponte H para integrar outros 2 motores
+
+
 ## Não concluído
 
 - ___Escolher a arquitetura de tração e direção._________________
