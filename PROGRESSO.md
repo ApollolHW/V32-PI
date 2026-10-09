@@ -111,33 +111,51 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 ## Planejado
 
 - Padronizar com o orientador sobre a planilha e documentação
-- 
+- Desenvolver o controle remoto
+- Montar o circuito em cima do chassi
+- Organizar as documentações
+- Medir a corrente dos motores.
+- Definir o driver de potência.
+- Aprender comandos UDP.
 
 ## Concluído
 
-- ____________________
+- Interface de controle
+- Controle remoto
 
 ## Não concluído
 
-- ____________________
+- Desenvolver o controle remoto
+- Montar o circuito em cima do chassi
+- Organizar as documentações
+- Medir a corrente dos motores.
+- Definir o driver de potência.
+- Aprender comandos UDP.
 
 ## Problemas ou impedimentos
 
-- ____________________
+- Aprimorar o controle
+- Ampliar a gama de comando do controle
+- Montegem em cima do chassi
+- Alimentação indepente
 
 ## Decisões técnicas da semana
 
-- ____________________
+- Controle remoto por pagina Web
 
 ## Testes realizados
 
 | Teste | Resultado |
 |---|---|
-| ____________________ | ____________________ |
+| Controle remoto | PARCIAL |
 
 ## Próximas ações
 
-- ____________________
+- Desenvolver o controle remoto
+- Montar o circuito em cima do chassi
+- Organizar as documentações
+- Medir a corrente dos motores.
+- Aprender comandos UDP.
 
 ---
 
@@ -145,33 +163,50 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Planejado
 
-- ____________________
-
+- Desenvolver o controle remoto
+- Montar o circuito em cima do chassi
+- Organizar as documentações
+- Medir a corrente dos motores.
+- Definir o driver de potência.
+- Aprender comandos UDP.
+  
 ## Concluído
 
-- ____________________
+- Desenvolver o controle remoto
+- Montar os sistemas em cima do chassi
 
 ## Não concluído
 
-- ____________________
+- Organizar as documentações
+- Medir a corrente dos motores.
+- Definir arquitetura mecânica
+- Definir chassi novo
+- Aprender comandos UDP.
 
 ## Problemas ou impedimentos
 
-- ____________________
-
+- Alimentação (resolvido)
+  
 ## Decisões técnicas da semana
 
-- ____________________
+- Será necessário aumentar a tensão de alimentação
+- Será necessário diminuir o peso do carro
 
 ## Testes realizados
 
 | Teste | Resultado |
 |---|---|
-| ____________________ | ____________________ |
+| Controle remoto do carro montado | SUCESSO |
 
 ## Próximas ações
 
-- ____________________
+- Definir arquitetura de vigilância
+- Organizar as documentações
+- Medir a corrente dos motores.
+- Definir arquitetura mecânica
+- Definir chassi novo
+- Aprender comandos UDP e Web.
+- Definir como vai ser o controle no circuito final
 
 ---
 
