@@ -126,36 +126,8 @@ O chassi não tem eixo direcional: as quatro rodas são fixas. As duas opções 
 
 **Recomendação:** opção B para corrida em pista com curvas. Se o prazo for curto, começar com A e evoluir para B.
 
-## 6. Eletrônica e alimentação
 
-### 6.1 Componentes
-
-| Componente | Especificação | Observação |
-|---|---|---|
-| Microcontrolador | ESP32 | PWM nativo (LEDC), Bluetooth e Wi-Fi |
-| Driver atual | L298N | ~2 A por canal; perda de ~2 V |
-| Driver alternativo | TB6612FNG ou DRV8833 | MOSFET, menos perda e menos calor |
-| Bateria | 2S Li-ion/LiPo 7,4V (proposta) | Substitui os 12V |
-| Regulador | 5V (buck ou o do próprio módulo) | Para ESP32 e servo |
-
-### 6.2 Tensão: risco principal
-
-Os motores são nominalmente de 3-6V. Uma bateria de 12V ligada direto no driver tende a queimar ou encurtar muito a vida deles. Com 2S (7,4V) e o L298N, sobram cerca de 5,5V no motor, dentro da faixa. Com driver MOSFET sobra mais tensão, então é preciso limitar o PWM para não passar de ~6-7V no motor.
-
-### 6.3 Corrente
-
-- Corrente sem carga: ~200 mA por motor a 6V.
-- Corrente de stall: **[MEDIR]** (travar o eixo por 1-2 s com multímetro em série).
-- Regra: o driver deve suportar pelo menos 2x a corrente de stall, ou o PWM precisa ser limitado em software.
-
-### 6.4 Software (ESP32)
-
-- PWM em 20 kHz para evitar apito dos motores (uso do LEDC).
-- Rampa de aceleração (soft start) para não patinar na arrancada.
-- Freio ativo: terminais do motor em curto pela ponte H ao soltar o acelerador.
-- Failsafe: se perder o sinal por mais de ~300 ms, parar os motores.
-
-## 7. Peças projetadas e modificadas
+## 6. Peças projetadas e modificadas
 
 | Peça | Situação | Descrição |
 |---|---|---|
@@ -168,7 +140,7 @@ Os motores são nominalmente de 3-6V. Uma bateria de 12V ligada direto no driver
 | Redução dos motores | Proposta | Trocar por motor com redução 1:10 a 1:20 |
 | Chave geral e fusível | Proposta | Proteção do circuito e desligamento rápido |
 
-## 8. Decisões de projeto
+## 7. Decisões de projeto
 
 | Nº | Decisão | Situação | Justificativa |
 |---|---|---|---|
@@ -181,7 +153,7 @@ Os motores são nominalmente de 3-6V. Uma bateria de 12V ligada direto no driver
 | D7 | Direção por servo | Recomendada | Curvas mais rápidas que o diferencial |
 | D8 | Controle sem fio | Em aberto | ESP-NOW ou gamepad têm menos latência que app por Wi-Fi |
 
-## 9. Riscos e pendências
+## 8. Riscos e pendências
 
 | Risco | Impacto | Mitigação |
 |---|---|---|
@@ -191,16 +163,8 @@ Os motores são nominalmente de 3-6V. Uma bateria de 12V ligada direto no driver
 | Patinagem na arrancada | Perde tempo | Rampa de aceleração e pneu com mais aderência |
 | Perda de sinal na pista | Carro descontrolado | Failsafe e teste em distância real |
 
-## 10. Plano de testes
 
-1. Pesar o carro pronto e medir as dimensões reais.
-2. Medir corrente sem carga e de stall de cada motor.
-3. Medir a tensão da bateria sob carga e a tensão real no motor.
-4. Cronometrar 10 m em reta com a configuração atual e depois de cada modificação.
-5. Cronometrar uma volta na pista de teste e comparar as configurações.
-6. Testar o failsafe desligando o controle.
-
-## 11. Lista de materiais (BOM)
+## 9. Lista de materiais 
 
 | Item | Qtd | Situação |
 |---|---|---|
