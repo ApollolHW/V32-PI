@@ -49,9 +49,9 @@ flowchart LR
 
 | Bloco | Função | Situação |
 |---|---|---|
-| Chassi | Estrutura de acrílico de 2 andares com furos de fixação | Kit existente |
+| Chassi | Estrutura de acrílico com furos de fixação | Existente |
 | Motores | Motores DC com redução 1:48, eixo duplo, 3-6V | Existentes |
-| Driver | Ponte H L298N (ponto de partida) | Existente; troca avaliada |
+| Driver | Ponte H L298N | Existente; troca avaliada |
 | Controlador | ESP32 | Existente |
 | Alimentação | Bateria 12V citada no projeto | Conflito com motores de 3-6V, ver [seção 6](#6-eletrônica-e-alimentação) |
 | Controle remoto | App Bluetooth ou gamepad | **[DECIDIR]** |
