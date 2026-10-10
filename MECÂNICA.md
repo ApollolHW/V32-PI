@@ -22,8 +22,7 @@ Documentação técnica do carro controlado por ESP32.
 
 ## 1. Objetivo e requisitos
 
-Construir um carro RC controlado por ESP32 para disputar uma corrida de velocidade em pista com curvas. O critério de sucesso é o menor tempo de volta, o que exige velocidade máxima, boa aceleração e estabilidade nas curvas, nessa ordem de importância.
-
+Construir um carro RC controlado por ESP32 para disputar uma corrida em uma pista com curvas.
 | Requisito | Meta |
 |---|---|
 | Velocidade máxima em reta | O maior possível dentro das regras da prova |
