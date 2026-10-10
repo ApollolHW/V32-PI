@@ -36,8 +36,8 @@ Exemplo:
 - direção: Caixa de direção usando servo motor e haste de aluminio;
 - controlador principal:Esp32;
 - driver de motores: módulo ponte HL298N;
-- câmera embarcada: câmera a9 wifi ;
-- estratégia de alimentação: ____________________;
+- câmera embarcada: ESPCAM ;
+- estratégia de alimentação: Baterias lítio 3,6v;
 - sensores adicionais, se houver: ____________________;
 - recursos de automação, se houver: ____________________.
 
@@ -81,14 +81,14 @@ Atualizar esta seção ao longo do projeto.
 
 ### Concluído
 
-- [ ] Definição da arquitetura geral
+- [x] Definição da arquitetura geral
 - [ ] Projeto mecânico inicial
 - [ ] Diagrama elétrico inicial
 - [ ] Comunicação com o sistema da organização
-- [ ] Controle dos motores em bancada
+- [x] Controle dos motores em bancada
 - [ ] Integração mecânica
-- [ ] Integração eletroeletrônica
-- [ ] Teste do veículo em movimento
+- [x] Integração eletroeletrônica
+- [x] Teste do veículo em movimento
 - [ ] Integração da câmera
 - [ ] Outros: ____________________
 
