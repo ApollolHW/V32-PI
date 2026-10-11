@@ -1,8 +1,8 @@
-# ⚡ Eletrônica e Alimentação — Carro de Corrida RC com ESP32
+# Eletrônica e Alimentação 
 
-Descrição do circuito elétrico e eletrônico do carro: componentes escolhidos, caminho da energia, sinais de controle e ligações.
+Descrição do circuito elétrico e eletrônico do carro
 
-**Versão:** 0.5 · **Data:** 11/10/2026 · Complementa o [README.md](README.md)
+**Versão:** 1 · **Data:** 10/10/2026 · Complementa o [README.md](README.md)
 
 ## Índice
 
@@ -20,7 +20,7 @@ Descrição do circuito elétrico e eletrônico do carro: componentes escolhidos
 
 ## 1. Visão geral
 
-O carro é controlado por um **ESP32 DevKit**, que gera os sinais de controle para uma ponte H **L298N**, que por sua vez aciona os **2 motores DC**. Toda a energia vem de **2 baterias de lítio 18650 ligadas em série**, em um suporte (holder), com uma chave liga/desliga no fio positivo.
+O carro é controlado por um **ESP32**, que gera os sinais de controle para uma ponte H **L298N**, que por sua vez aciona os **2 motores DC**. Toda a energia vem de **2 baterias de lítio 18650 ligadas em série**, em um suporte (holder), com uma chave liga/desliga no fio positivo.
 
 Além do circuito de potência e controle, o projeto prevê um carregamento da bateria por **USB-C** e uma **câmera** para ver a imagem em tempo real e controlar o carro olhando a imagem.
 
