@@ -123,7 +123,7 @@ O chassi não tem eixo direcional: as quatro rodas são fixas. As duas opções 
 | A. Diferencial (skid steering) | Lado esquerdo e direito com velocidades diferentes | Já funciona no chassi atual, simples de programar | Arrasta as rodas nas curvas, perde velocidade, desgasta o pneu |
 | B. Servo na frente (Ackermann simplificado) | Servo gira as rodas dianteiras; motores atrás | Curvas mais rápidas e estáveis, melhor para pista | Exige projetar peça de direção e eixo dianteiro (chassi novo ou adaptado) |
 
-**Recomendação:** opção B para corrida em pista com curvas. Se o prazo for curto, começar com A e evoluir para B.
+começar com A e evoluir para B.
 
 
 ## 6. Peças projetadas e modificadas
