@@ -2,7 +2,6 @@ Documentação técnica do carro controlado por ESP32.
 
 **Versão:** 1 · **Data:** 10/10/2026
 
-> **Como ler:** itens marcados com **[MEDIR]** são estimativas baseadas em kits de chassi 4WD de acrílico parecidos com o nosso e precisam ser confirmados com régua, balança e multímetro. Itens marcados com **[DECIDIR]** ainda estão em aberto na equipe.
 
 ## Índice
 
