@@ -73,15 +73,8 @@ O negativo da bateria, o GND do L298N e o GND do ESP32 são ligados entre si, fo
 3. O L298N distribui essa tensão aos motores pelas saídas OUT1 a OUT4.
 4. O terminal **5V** do L298N alimenta o ESP32 pelo pino **VIN**.
 
-Como o ESP32 recebe energia pelo L298N, **a chave liga/desliga desliga o carro inteiro**: motores e controlador.
 
-## 5. Chave liga/desliga
-
-- Tipo: chave gangorra (representada no esquema do Fritzing por uma chave deslizante).
-- Posição: no fio **positivo**, entre a bateria e o terminal 12V do L298N.
-- Efeito: ao abrir o circuito, corta a alimentação do L298N, dos motores e do ESP32.
-
-## 6. Controle dos motores
+## 5. Controle dos motores
 
 O L298N tem dois canais, e cada canal aciona um motor.
 
@@ -94,7 +87,7 @@ O L298N tem dois canais, e cada canal aciona um motor.
 - **Sentido de giro:** os pinos IN1/IN2 (motor A) e IN3/IN4 (motor B) definem o sentido. Um pino em nível alto e o outro em baixo faz o motor girar em um sentido; invertendo os níveis, ele gira no sentido contrário.
 - **Parada e freio:** com os dois pinos IN do canal no mesmo nível, o motor para.
 
-## 7. Ligações entre ESP32 e L298N
+## 6. Ligações entre ESP32 e L298N
 
 Leitura do esquema, na ordem dos fios do cabeçalho do L298N. A confirmar na montagem.
 
