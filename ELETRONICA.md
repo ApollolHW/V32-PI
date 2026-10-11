@@ -114,6 +114,5 @@ O carro terá uma câmera, para que o piloto veja a imagem em tempo real e contr
 | Item | Descrição |
 |---|---|
 | Câmera | ESP32-CAM ou outra câmera leve |
-| Função | Transmitir imagem em tempo real |
 | Uso | Pilotar o carro olhando a imagem |
 | Critério | Solução de baixo custo e baixo peso (o FPV analógico foi considerado caro) |
