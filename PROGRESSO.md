@@ -19,7 +19,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 - Criar a estrutura inicial do repositório.
 - Repositório organizado com `README.md`, `PLANEJAMENTO.md` e `PROGRESSO.md`.
 
-## Não concluído
+## CONCLUIDO
 
 
 
@@ -72,7 +72,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 - Possivelmente compraremos outra ponte H para integrar outros 2 motores
 
 
-## Não concluído
+## concluído
 
 - ___Escolher a arquitetura de tração e direção._________________
 -  Elaborar o primeiro diagrama elétrico
@@ -267,11 +267,40 @@ Descrever qual subsistema ou conjunto de subsistemas será demonstrado na bancad
 Copiar o bloco abaixo sempre que uma nova semana for iniciada.
 
 ```markdown
-# Semana X — DD/MM/AAAA a DD/MM/AAAA
+# Semana 6 — 21/10/2026 a 24/10/2026
 
 ## Planejado
 
+- Fazer novo chassi e testar
+
+## Concluído
+
 - ...
+
+## Não concluído
+
+- ...
+
+## Problemas ou impedimentos
+
+- ...
+
+## Decisões técnicas da semana
+
+- ...
+
+## Testes realizados
+
+| Teste | Resultado |
+|---|---|
+| ... | ... |
+
+## Próximas ações
+# Semana 7 — 28/10/2026 a 31/10/2026
+
+## Planejado
+
+- Fazer novo chassi e testar
 
 ## Concluído
 
