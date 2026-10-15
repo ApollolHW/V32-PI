@@ -137,13 +137,11 @@ começar com A e evoluir para B.
 | Nº | Decisão | Situação | Justificativa |
 |---|---|---|---|
 | D1 | Usar chassi 4WD de acrílico | Adotada | Disponível, barato e fácil de modificar |
-| D2 | ESP32 como controlador | Adotada | Já disponível, PWM e comunicação sem fio |
-| D3 | 2 ou 4 motores | Em aberto (recomendado: 2) | Mesma velocidade máxima, menos peso e consumo |
-| D4 | Trocar redução 1:48 | Recomendada | Velocidade atual é muito baixa para corrida |
-| D5 | Bateria 2S 7,4V no lugar de 12V | Recomendada | Compatível com motores de 3-6V |
-| D6 | Trocar L298N por MOSFET | Recomendada | Menos perda e calor |
-| D7 | Direção por servo | Recomendada | Curvas mais rápidas que o diferencial |
-| D8 | Controle sem fio | Em aberto | ESP-NOW ou gamepad têm menos latência que app por Wi-Fi |
+| D2 | 2 ou 4 motores | Em aberto (recomendado: 2) | Mesma velocidade máxima, menos peso e consumo |
+| D3 | Trocar redução 1:48 | Recomendada | Velocidade atual é muito baixa para corrida |
+| D4 | Trocar L298N por MOSFET | Recomendada | Menos perda e calor |
+| D5 | Direção por servo | Em aberto | Curvas mais rápidas que o diferencial |
+
 
 ## 8. Riscos e pendências
 
@@ -151,7 +149,6 @@ começar com A e evoluir para B.
 |---|---|---|
 | Tensão 12V nos motores 3-6V | Motor queimado | Usar 2S 7,4V e limitar PWM |
 | Corrente de stall acima do limite do driver | Driver queimado | Medir stall e trocar driver se necessário |
-| Regras da prova desconhecidas | Carro desclassificado | Ler o regulamento antes de comprar peças |
 | Patinagem na arrancada | Perde tempo | Rampa de aceleração e pneu com mais aderência |
 | Perda de sinal na pista | Carro descontrolado | Failsafe e teste em distância real |
 
