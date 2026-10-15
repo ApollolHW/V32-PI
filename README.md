@@ -5,7 +5,8 @@
 **Nome da equipe:** VOLGA 32
 
 **Turma:** Matutino
-**Professor técnico:** Gustavo Lima
+
+**Orientador:** Gustavo Lima
 
 ### Integrantes e áreas de atuação
 
