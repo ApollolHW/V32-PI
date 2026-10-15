@@ -116,7 +116,7 @@ O planejamento semanal da equipe está disponível em:
 - Projeto mecânico: [MECÂNICA.md](docs/MECÂNICA.md)
 - Diagrama elétrico: [ELETRÔNICA.md](docs/ELETRÔNICA.md)
 - Documentação do software: ____________________
-- Lista de materiais: ____________________
+- Lista de materiais: [COMPONENTES.md](docs/COMPONENTES.md)
 - Registros de testes:[PROGRESSO.md](docs/PROGRESSO.md)
 
 ---
