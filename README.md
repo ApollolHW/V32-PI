@@ -117,21 +117,10 @@ O registro semanal de atividades está disponível em:
 
 ## 6. Documentação técnica
 
-Organizar a documentação técnica, preferencialmente, nas seguintes pastas:
-
-```text
-docs/
-├── arquitetura/
-├── mecanica/
-├── eletronica/
-├── software/
-└── testes/
-```
-
 ### Documentos disponíveis
 
 - Arquitetura geral: ____________________
-- Projeto mecânico: ____________________
+- Projeto mecânico: [README.md](README.md)
 - Diagrama elétrico: ____________________
 - Documentação do software: ____________________
 - Lista de materiais: ____________________
