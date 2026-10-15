@@ -46,7 +46,7 @@ Exemplo:
 
 ## 3. Arquitetura geral
 
-Inserir aqui um diagrama da arquitetura do sistema ou um link para o arquivo correspondente em `docs/arquitetura/`.
+docs/arquitetura
 
 Exemplo de organização:
 
@@ -70,7 +70,7 @@ Celular embarcado --> transmissão de vídeo
 
 - **Mecânica:** descrever resumidamente.
 - **Eletrônica:** descrever resumidamente.
-- **Software:** descrever resumidamente.
+- **Software:** Define a velocidade dos motores e envia os comandos e vídeo entre piloto e carro, a comunicação será por uma página html que o ESP32 gera na rede.
 - **Comunicação:** descrever resumidamente.
 - **Alimentação:** descrever resumidamente.
 
