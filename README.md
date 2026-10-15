@@ -121,18 +121,10 @@ O planejamento semanal da equipe está disponível em:
 
 ---
 
-## 7. Materiais e componentes
-
-| Item | Quantidade | Origem | Situação |
-|---|---:|---|---|
-| ESP32 | 1 | Kit da organização | Disponível |
-| Motor DC | 2 | Kit da organização | Disponível |
-| Driver de motor | 1 | Kit da organização | Disponível |
-| ____________________ | ___ | Equipe / organização | ____________________ |
 
 ---
 
-## 8. Comunicação com a organização
+## 7. Comunicação com a organização
 
 ### Comandos
 
@@ -162,7 +154,7 @@ Os campos definitivos de telemetria serão definidos pela equipe em conjunto com
 
 ---
 
-## 9. Testes realizados
+## 8. Testes realizados
 
 Registrar os testes relevantes do projeto. Para registros mais detalhados, utilizar `docs/testes/`.
 
@@ -172,6 +164,6 @@ Registrar os testes relevantes do projeto. Para registros mais detalhados, utili
 
 ---
 
-## 10. Observações
+## 9. Observações
 
 Registrar aqui informações importantes que não se encaixem nas demais seções.
