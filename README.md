@@ -154,13 +154,6 @@ Os campos definitivos de telemetria serão definidos pela equipe em conjunto com
 
 ---
 
-## 8. Testes realizados
-
-Registrar os testes relevantes do projeto. Para registros mais detalhados, utilizar `docs/testes/`.
-
-| Data | Teste | Resultado | Próxima ação |
-|---|---|---|---|
-| __/__/2026 | ____________________ | ____________________ | ____________________ |
 
 ---
 
