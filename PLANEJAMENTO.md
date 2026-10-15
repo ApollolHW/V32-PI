@@ -1,3 +1,7 @@
+
+botar link do nosso planejamento
+
+
 | CRONOGRAMA DE DESENVOLVIMENTO — PROJETO INTEGRADOR                                                                                                                                                                                |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | O cronograma deve abranger todo o projeto, da entrega inicial do planejamento até a competição final. As metas devem ser objetivas e verificáveis. Alterações são permitidas, mas devem ser registradas e justificadas no GitHub. |
