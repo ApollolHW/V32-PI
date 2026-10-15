@@ -35,13 +35,14 @@ Descrever, de forma objetiva, a solução escolhida pela equipe.
 
 Exemplo:
 
-- arquitetura de tração: diferencial com dois motores;
-- direção: Caixa de direção usando servo motor e haste de aluminio;
-- controlador principal:Esp32;
-- driver de motores: módulo ponte HL298N;
-- câmera embarcada: ESPCAM ;
-- estratégia de alimentação: Baterias lítio 3,6v;
----
+- **arquitetura de tração:** diferencial com dois motores;
+- **direção:** Caixa de direção usando servo motor e haste de aluminio;
+- **controlador principal:**Esp32;
+- **driver de motores:** módulo ponte HL298N;
+- **câmera embarcada:** ESPCAM ;
+- **estratégia de alimentação:** Baterias lítio 3,6v;
+- **sensores adicionais, se houver:** ____________________;
+- **recursos de automação, se houver:** ____________________.
 
 ## 3. Arquitetura geral
 
