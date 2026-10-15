@@ -2,7 +2,7 @@
 
 Descrição do circuito elétrico e eletrônico do carro
 
-**Versão:** 1 · **Data:** 10/10/2026 · Complementa o [README.md](README.md)
+Complementa o [README.md](README.md)
 
 ## Índice
 
