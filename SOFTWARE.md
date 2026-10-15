@@ -7,12 +7,8 @@ Documentação técnica do carro controlado por ESP32.
 
 1. [Objetivo e requisitos](#1-objetivo-e-requisitos)
 2. [Arquitetura geral](#2-arquitetura-geral)
-3. [Dimensões e massa](#3-dimensões-e-massa)
-4. [Tração](#4-tração)
-5. [Direção](#5-direção)
-6. [Eletrônica e alimentação](#6-eletrônica-e-alimentação)
-7. [Peças projetadas e modificadas](#7-peças-projetadas-e-modificadas)
-8. [Riscos e pendências](#8-riscos-e-pendências)
+3. [Código](#3-codigo-explicado)
+4. [Riscos e pendências](#4-riscos-e-pendências)
 
 ---
 
@@ -49,9 +45,9 @@ flowchart LR
 | Vigilância | Transcrição da imagem da ESPCAM | A fazer |
 | HTTP | Canal de comunicação dupla sempre aberto | Funcionando + recursos são necessários|
 
-## 4. Código explicado
+## 3. Código explicado
 
-### 4.1 Funções
+### 3.1 Funções
 
 | Parâmetro | Descrição | Situação |
 |---|---|---|
@@ -62,25 +58,25 @@ flowchart LR
 | Setup | Precisa definir os pinos do ESP32, Estabelecer a comunicação e o estado inicial do carro | Parcial |
 | Loop | Retoma as funções posteriores | Parcial |
 
-### 4.2 Câmera
+### 3.2 Câmera
 
 
-### 4.3 Motores
+### 3.3 Motores
 
 
-### 4.4 Servo
+### 3.3 Servo
 
 
-## 5. HTTP
+## 3.5. HTTP
 
 
-## 6. Setup
+## 3.6. Setup
 
 
-## 7. Loop
+## 3.7. Loop
 
 
-## 8. Riscos e pendências
+## 4. Riscos e pendências
 
 | Risco | Impacto | Mitigação |
 |---|---|---|
