@@ -12,8 +12,7 @@ Documentação técnica do carro controlado por ESP32.
 5. [Direção](#5-direção)
 6. [Eletrônica e alimentação](#6-eletrônica-e-alimentação)
 7. [Peças projetadas e modificadas](#7-peças-projetadas-e-modificadas)
-8. [Decisões de projeto](#8-decisões-de-projeto)
-9. [Riscos e pendências](#8-riscos-e-pendências)
+8. [Riscos e pendências](#8-riscos-e-pendências)
 
 ---
 
