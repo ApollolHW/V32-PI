@@ -1,7 +1,4 @@
-Documentação técnica do carro controlado por ESP32.
-
-**Versão:** 1 · **Data:** 10/10/2026
-
+Documentação técnica do carro RC.
 
 ## Índice
 
