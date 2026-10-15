@@ -1,4 +1,4 @@
-# Eletrônica e Alimentação 
+# Eletrônica 
 
 Descrição do circuito elétrico e eletrônico do carro
 
