@@ -300,7 +300,7 @@ Copiar o bloco abaixo sempre que uma nova semana for iniciada.
 
 ## Planejado
 
-- Fazer novo chassi e testar
+- 
 
 ## Concluído
 
