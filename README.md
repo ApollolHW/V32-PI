@@ -37,7 +37,7 @@ Exemplo:
 
 - **arquitetura de tração:** diferencial com dois motores;
 - **direção:** Caixa de direção usando servo motor e haste de aluminio;
-- **controlador principal:**Esp32;
+- **controlador principal:** Esp32;
 - **driver de motores:** módulo ponte HL298N;
 - **câmera embarcada:** ESPCAM ;
 - **estratégia de alimentação:** Baterias lítio 3,6v;
