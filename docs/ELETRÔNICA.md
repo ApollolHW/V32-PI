@@ -103,11 +103,7 @@ Leitura do esquema, na ordem dos fios do cabeçalho do L298N. A confirmar na mon
 - Motor A: terminais OUT1 e OUT2.
 - Motor B: terminais OUT3 e OUT4.
 
-## 8. Carregamento da bateria por USB-C
-
-O carro terá um dispositivo para carregar a bateria de lítio por **USB-C**. Com ele, a bateria é recarregada ligando um cabo USB-C ao carro, sem precisar tirar as células do suporte.
-
-## 9. Câmera em tempo real
+## 8. Câmera em tempo real
 
 O carro terá uma câmera, para que o piloto veja a imagem em tempo real e controle o carro olhando a imagem.
 
