@@ -21,6 +21,7 @@
 ---
 
 ## 1. Objetivo do projeto
+*Todo o texto escrito neste arquivo se refere as soluções e decisões momentâneas para o projeto, podendo ser posteriormente alteradas, o README é a porta de entrada para toda a documentação
 
 Desenvolver um veículo terrestre em pequena escala para participação na Competição de Carrinhos do Projeto Integrador. O veículo deverá percorrer a pista definida pela organização, respeitando os requisitos do regulamento e utilizando a interface de controle disponibilizada.
 
