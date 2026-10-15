@@ -1,4 +1,4 @@
-# Projeto Integrador — Competição de Carrinhos
+# Projeto Integrador 
 
 ## Equipe V32
 
