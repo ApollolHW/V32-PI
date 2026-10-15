@@ -7,7 +7,7 @@ Documentação técnica do carro controlado por ESP32.
 
 1. [Objetivo e requisitos](#1-objetivo-e-requisitos)
 2. [Arquitetura geral](#2-arquitetura-geral)
-3. [Código](#3-codigo-explicado)
+3. [Código](#3-código-explicado)
 4. [Riscos e pendências](#4-riscos-e-pendências)
 
 ---
@@ -67,13 +67,13 @@ flowchart LR
 ### 3.3 Servo
 
 
-## 3.5. HTTP
+### 3.5. HTTP
 
 
-## 3.6. Setup
+### 3.6. Setup
 
 
-## 3.7. Loop
+### 3.7. Loop
 
 
 ## 4. Riscos e pendências
