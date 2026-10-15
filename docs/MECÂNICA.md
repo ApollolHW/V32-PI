@@ -23,12 +23,11 @@ Documentação técnica do carro RC.
 Construir um carro RC controlado por ESP32 para disputar uma corrida com curvas.
 | Requisito | Meta |
 |---|---|
-| Velocidade máxima em reta | O maior possível dentro das regras da prova |
+| Velocidade em reta | A maior possível |
 | Aceleração | Sair da curva sem patinar |
 | Estabilidade | Não capotar nem derrapar em curvas |
-| Controle | Baixa latência, sem perder sinal na pista |
 | Confiabilidade | Completar todas as baterias da corrida sem queimar driver ou motor |
-| Regras da prova | Conferir limite de tensão, peso, dimensões e tipo de direção **[DECIDIR]** |
+
 
 ## 2. Arquitetura geral
 
@@ -49,25 +48,25 @@ flowchart LR
 |---|---|---|
 | Chassi | Estrutura de acrílico com furos de fixação | Existente |
 | Motores | Motores DC com redução 1:48, eixo duplo, 3-6V | Existentes |
-| Driver | Ponte H L298N | Existente; troca avaliada |
+| Driver | Ponte H L298N | Existente |
 | Controlador | ESP32 | Existente |
-| Alimentação | Bateria 12V citada no projeto | Conflito com motores de 3-6V, ver [seção 6](#6-eletrônica-e-alimentação) |
-| Controle remoto | App Bluetooth ou gamepad | **[DECIDIR]** |
+| Alimentação | Bateria de Lítio 7.3V | Existente |
+| Controle remoto | App Bluetooth ou endereço de IP | Decidir |
 
 ## 3. Dimensões e massa
 
-O chassi é o formato clássico de kit 4WD com duas placas de acrílico sobrepostas. Valores típicos desse tipo de kit:
+O chassi é o formato clássico de kit 4WD com duas placas de acrílico sobrepostas. Dimensões desse tipo de kit:
 
-| Item | Valor típico | Medida real |
-|---|---|---|
-| Comprimento | ~22 cm | **[MEDIR]** |
-| Largura | ~15 cm | **[MEDIR]** |
-| Altura (com 2 andares) | ~8-10 cm | **[MEDIR]** |
-| Diâmetro da roda | ~65 mm | **[MEDIR]** |
-| Largura do pneu | ~26 mm | **[MEDIR]** |
-| Distância entre eixos | ~11-12 cm | **[MEDIR]** |
+| Item | Valor típico | 
+|---|---|
+| Comprimento | 22 cm | 
+| Largura | 15 cm | 
+| Altura (com 2 andares) | ~8-10 cm | 
+| Diâmetro da roda | 68 mm | 
+| Largura do pneu | 26 mm | 
+| Distância entre eixos | ~11-12 cm | 
 | Massa de cada motor | 30 g (especificação) | ok |
-| Massa total pronta para correr | meta: o mínimo possível | **[MEDIR]** |
+| Massa total pronta para correr | meta: o mínimo possível | 
 
 **Observação:** a segunda placa de acrílico (andar de cima) aumenta o peso e o centro de gravidade. Se o regulamento e a fixação permitirem, remover ou recortar o andar superior é a modificação mais barata para ganhar velocidade e estabilidade.
 
@@ -102,16 +101,14 @@ Em carga a velocidade real fica abaixo desses valores. **Conclusão:** com redu�
 | 4 motores (um por roda) | Mais torque e tração nas quatro rodas | +60 g de motores, mais corrente (cada canal do L298N alimenta 2 motores em paralelo), mais fios |
 | 2 motores (um por roda traseira) | Carro mais leve, menor consumo, mesma velocidade máxima | Menos torque; tração só atrás |
 
-**Recomendação:** 2 motores, com a economia de peso e corrente investida em motores de menor redução. **[DECIDIR]** na equipe.
-
-### 4.4 Ponto de atenção: motores de eixo duplo
+### 4.4 Ponto de atenção: 
 
 Com motor de eixo duplo, a montagem muda o que o carro consegue fazer:
 
 - Se cada motor aciona as **duas rodas do mesmo eixo** (esquerda e direita), as rodas giram juntas e o carro **não consegue fazer curva por diferencial**. Precisa de direção por servo.
 - Se há **um motor por roda** ou cada motor aciona as rodas de um mesmo lado, a direção por diferencial é possível.
 
-Confirmar qual é a montagem real do carro **[DECIDIR]**.
+ **[DECIDIR]**.
 
 ## 5. Direção
 
@@ -119,8 +116,8 @@ O chassi não tem eixo direcional: as quatro rodas são fixas. As duas opções 
 
 | Opção | Como funciona | Prós | Contras |
 |---|---|---|---|
-| A. Diferencial (skid steering) | Lado esquerdo e direito com velocidades diferentes | Já funciona no chassi atual, simples de programar | Arrasta as rodas nas curvas, perde velocidade, desgasta o pneu |
-| B. Servo na frente (Ackermann simplificado) | Servo gira as rodas dianteiras; motores atrás | Curvas mais rápidas e estáveis, melhor para pista | Exige projetar peça de direção e eixo dianteiro (chassi novo ou adaptado) |
+| A. Diferencial | Lado esquerdo e direito com velocidades diferentes | Já funciona no chassi atual, simples de programar | Arrasta as rodas nas curvas, perde velocidade|
+| B. Servo na frente | Servo gira as rodas dianteiras; motores atrás | Curvas mais rápidas e estáveis, melhor para pista | Exige projetar peça de direção e eixo dianteiro (chassi novo ou adaptado) |
 
 começar com A e evoluir para B.
 
@@ -130,13 +127,10 @@ começar com A e evoluir para B.
 | Peça | Situação | Descrição |
 |---|---|---|
 | Chassi de acrílico 2 andares | Existente (kit) | Base do carro; furos para fixar motores e placas |
-| Andar superior | Proposta | Remover ou recortar para reduzir peso e centro de gravidade |
-| Suporte da bateria | Proposta | Fixar baixo e no centro do carro |
-| Suporte do ESP32 e driver | A definir | Fixação com espaçadores nos furos do chassi |
-| Direção dianteira (servo) | Proposta | Peça nova (impressão 3D ou acrílico) com servo e manga de eixo |
-| Rodas e pneus | Existentes (~65 mm) | Avaliar rodas maiores ou pneus de borracha mais macia |
+| Suporte da bateria | Proposta | Fixar baixo e no centro do carro 
+| Direção dianteira (servo) | Proposta | Peça de arame acoplada ao servo para eixo móvel |
+| Rodas e pneus | Existentes (~68 mm) | Avaliar rodas menores |
 | Redução dos motores | Proposta | Trocar por motor com redução 1:10 a 1:20 |
-| Chave geral e fusível | Proposta | Proteção do circuito e desligamento rápido |
 
 ## 7. Decisões de projeto
 
