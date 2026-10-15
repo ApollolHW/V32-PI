@@ -23,17 +23,11 @@
 ---
 
 ## 1. Objetivo do projeto
-*Todo o texto escrito neste arquivo se refere as soluções e decisões momentâneas para o projeto, podendo ser posteriormente alteradas, o README é a porta de entrada para toda a documentação
-
-Desenvolver um veículo terrestre em pequena escala para participação na Competição de Carrinhos do Projeto Integrador. O veículo deverá percorrer a pista definida pela organização, respeitando os requisitos do regulamento e utilizando a interface de controle disponibilizada.
+O objetivo é construir um carro RC de 4 rodas, com chassi de acrílico e 2 motores DC (3 a 6 V, redução 1:48, eixo duplo), para disputar uma corrida. Além disso, o projeto também prevê uma câmera (ESP32-CAM) que transmite imagem ao vivo, para que o piloto conduza o carro olhando a imagem
 
 ---
 
 ## 2. Conceito da solução
-
-Descrever, de forma objetiva, a solução escolhida pela equipe.
-
-Exemplo:
 
 - **arquitetura de tração:** diferencial com dois motores;
 - **direção:** Caixa de direção usando servo motor e haste de aluminio;
