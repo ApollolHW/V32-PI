@@ -120,7 +120,7 @@ O registro semanal de atividades está disponível em:
 ### Documentos disponíveis
 
 - Arquitetura geral: ____________________
-- Projeto mecânico: [MECÂNICA.md](docs)
+- Projeto mecânico: [MECÂNICA.md](docs/MECÂNICA.md)
 - Diagrama elétrico: ____________________
 - Documentação do software: ____________________
 - Lista de materiais: ____________________
