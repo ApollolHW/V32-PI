@@ -80,20 +80,18 @@ Celular embarcado --> transmissão de vídeo
 
 ## 4. Estado atual do desenvolvimento
 
-Atualizar esta seção ao longo do projeto.
-
 ### Concluído
 
 - [x] Definição da arquitetura geral
-- [ ] Projeto mecânico inicial
-- [ ] Diagrama elétrico inicial
+- [x] Projeto mecânico inicial
+- [x] Diagrama elétrico inicial
 - [ ] Comunicação com o sistema da organização
 - [x] Controle dos motores em bancada
-- [ ] Integração mecânica
+- [x] Integração mecânica
 - [x] Integração eletroeletrônica
 - [x] Teste do veículo em movimento
 - [ ] Integração da câmera
-- [ ] Outros: ____________________
+
 
 ### Em desenvolvimento
 
