@@ -41,9 +41,6 @@ Exemplo:
 - driver de motores: módulo ponte HL298N;
 - câmera embarcada: ESPCAM ;
 - estratégia de alimentação: Baterias lítio 3,6v;
-- sensores adicionais, se houver: ____________________;
-- recursos de automação, se houver: ____________________.
-
 ---
 
 ## 3. Arquitetura geral
