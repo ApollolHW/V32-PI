@@ -4,8 +4,8 @@
 #include <ESPAsyncWebServer.h>
 
 // ================== CONFIGURAÇÕES ==================
-const char* WIFI_SSID = "Redmi Note 13";
-const char* WIFI_PASS = "mcgarvey";
+const char* WIFI_SSID = "rede móvel";
+const char* WIFI_PASS = "senha";
 
 // ================== PINOS ==================
 // ATENÇÃO: os pinos 34, 35, 36 e 39 do ESP32 só funcionam como ENTRADA.
