@@ -11,5 +11,5 @@
 | Servo SG90 (para direção) | 1 | Existente|
 | Chave geral e fusível | 1 | Existente |
 | Fios, espaçadores e parafusos | — | Existentes |
-| Protoboard | — | Existente |
+| Protoboard | 1 | Existente |
 
