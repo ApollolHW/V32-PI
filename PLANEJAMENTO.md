@@ -1,5 +1,6 @@
 
-botar link do nosso planejamento
+Link do nosso planejamento:
+[`PLANEJAMENTO`](https://drive.google.com/file/d/15BtMBWF7vAIDOCuJR9LVeYASLSW_6Q8U/view?usp=sharing](https://drive.google.com/file/d/15BtMBWF7vAIDOCuJR9LVeYASLSW_6Q8U/view?usp=sharing))
 
 
 | CRONOGRAMA DE DESENVOLVIMENTO — PROJETO INTEGRADOR                                                                                                                                                                                |
