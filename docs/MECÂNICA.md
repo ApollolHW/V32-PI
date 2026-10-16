@@ -55,7 +55,7 @@ flowchart LR
 
 ## 3. Dimensões e massa
 
-O chassi é o formato clássico de kit 4WD com duas placas de acrílico sobrepostas. Dimensões desse tipo de kit:
+O chassi é o formato clássico de kit 4WD com placa de acrílico. Dimensões desse tipo de kit:
 
 | Item | Valor típico | 
 |---|---|
