@@ -87,9 +87,7 @@ Logo em seguida, está o HTML da página responsável pela interface de controle
 
 ### 3.6. Setup
 
-
-### 3.7. Loop
-
+O setup é responsável por definir os pinos, logicamente, mas além disso, ele estabelece o estado de repouso inicial do carro, e a conexão WiFi do carro, inicializa o serial
 
 ## 4. Riscos e pendências
 
