@@ -1,8 +1,0 @@
-Relação dos materiais solicitados ao COLAB:
-
-- Super Bonder 6g
-- 2 Pilhas AAA 1.5V
-- 2 Pilhas AA 1.5V
-- 2 Protoboards
-- 2 Pilhas SAMSUNG (fornecidas pelo COLAB como parte do kit)
-
