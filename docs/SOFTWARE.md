@@ -26,16 +26,20 @@ Construir um carro RC controlado por ESP32 para disputar uma corrida em uma pist
 ## 2. Arquitetura geral
 
 ```mermaid
-flowchart LR
-    C["Controle<br/>(celular / gamepad)"] -- "Bluetooth ou ESP-NOW" --> E[ESP32]
-    E -- "PWM + direção" --> D["Driver de motor<br/>(ponte H)"]
-    D --> M[Motores DC]
-    E -. "PWM (opcional)" .-> S[Servo de direção]
-    B[Bateria] --> SW[Chave geral + fusível]
-    SW --> D
-    SW --> R["Regulador 5V"]
-    R --> E
-    R --> S
+flowchart TD
+    A([Liga o ESP32]) --> B["setup()"]
+    B --> B1["Configura pinos dos motores e da luz"]
+    B1 --> B2["Configura PWM em ENA e ENB"]
+    B2 --> B3["executar('S') e executar('D')<br/>carro parado e luz apagada"]
+    B3 --> B4["Conecta no WiFi"]
+    B4 --> B5["Inicia servidor HTTP e WebSocket"]
+    B5 --> C["loop()"]
+    C --> C1["ws.cleanupClients()"]
+    C1 --> C
+
+    S["Celular abre o IP no navegador"] --> P["Servidor envia a página HTML"]
+    P --> W["Página abre o WebSocket em /ws"]
+    W --> E["onWsEvent()"]
 ```
 
 | Modulos | Descrição | Situação |
