@@ -151,6 +151,6 @@ Os campos definitivos de telemetria serão definidos pela equipe em conjunto com
 
 ---
 
-## 9. Observações
+## 8. Observações
 
 Registrar aqui informações importantes que não se encaixem nas demais seções.
