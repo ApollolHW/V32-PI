@@ -73,6 +73,17 @@ flowchart TD
 
 ### 3.5. HTTP
 
+```mermaid
+flowchart TD
+    E["onWsEvent()"] --> T{"Tipo do evento"}
+    T -->|"WS_EVT_CONNECT"| C1["Mostra cliente conectado no Serial"]
+    T -->|"WS_EVT_DISCONNECT"| D1["executar('S')<br/>para o carro por segurança"]
+    T -->|"WS_EVT_DATA"| M{"Mensagem de texto completa?"}
+    M -->|"Sim"| X["executar(primeiro caractere)"]
+    M -->|"Não"| I["Ignora"]
+```
+Na função onWsEvent, acontece a abertura da comunicação, dando os dados no Serial do ESP32 para ser possivel conectar o celular com o ESP32 e oque acontece em cada situação da conexão.
+Logo em seguida, está o HTML da página responsável pela interface de controle, ela faz referencia a algumas funções da aréa mecânica. Está secção do projeto está muito sujeita a alterações, pois o controle final será com um volante e a direção será feita por servos e ainda vai precisar comportar a camêra.
 
 ### 3.6. Setup
 
