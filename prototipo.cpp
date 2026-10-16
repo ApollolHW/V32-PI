@@ -122,8 +122,8 @@ const char PAGINA[] PROGMEM = R"rawliteral(
   </div>
 
   <div class="luz">
-    <button onclick="enviar('A')">💡 Luz ON</button>
-    <button onclick="enviar('D')">🌑 Luz OFF</button>
+    <button onclick="enviar('A')"> Luz ON</button>
+    <button onclick="enviar('D')"> Luz OFF</button>
   </div>
 
   <script>
