@@ -123,29 +123,10 @@ O planejamento semanal da equipe está disponível em:
 
 ### Comandos
 
-- Protocolo: HTTP
-- Porta: 11500
-- Formato: JSON em UTF-8
-- Frequência nominal: 60 Hz
 
-Formato esperado:
-
-```json
-{
-  "sequencia": 123,
-  "volante": 0,
-  "aceleracao": 0,
-  "habilitado": true
-}
-```
 
 ### Telemetria
 
-- Protocolo: MQTT 3.1.1 sobre TCP
-- Porta: 1883
-- Tópico previsto: `carrinhos/<equipe>/telemetria`
-
-Os campos definitivos de telemetria serão definidos pela equipe em conjunto com os professores.
 
 ---
 
@@ -154,4 +135,4 @@ Os campos definitivos de telemetria serão definidos pela equipe em conjunto com
 
 ## 8. Observações
 
-Registrar aqui informações importantes que não se encaixem nas demais seções.
+Comunicação precisa de retrabalho
