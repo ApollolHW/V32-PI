@@ -40,7 +40,7 @@ O objetivo é construir um carro RC de 4 rodas, com chassi de acrílico e 2 moto
 
 ## 3. Arquitetura geral
 
-docs/arquitetura
+docs/arquitetura.md
 
 Exemplo de organização:
 
@@ -62,11 +62,11 @@ Celular embarcado --> transmissão de vídeo
 
 ### Subsistemas
 
-- **Mecânica:** descrever resumidamente.
-- **Eletrônica:** descrever resumidamente.
+- **Mecânica:** Busca diminuir o peso o máximo possível e aumentar a potência ao mâximo, levando a decisões tecnicas como caixa de direção com servo e etc.
+- **Eletrônica:** Faz as ligações que permite o funcionamento do carro, tem o foco em confiabilidade, com paramêtros estáveis e solda
 - **Software:** Define a velocidade dos motores e envia os comandos e vídeo entre piloto e carro, a comunicação será por uma página html que o ESP32 gera na rede.
-- **Comunicação:** descrever resumidamente.
-- **Alimentação:** descrever resumidamente.
+- **Comunicação:** Feita em HTTPS, usando dados móveis do celular conectado, sujeito à mudanças
+- **Alimentação:** Pilhas em série, para aumentar a velocidade nos motores
 
 ---
 
@@ -87,11 +87,11 @@ Celular embarcado --> transmissão de vídeo
 
 ### Em desenvolvimento
 
-Descrever as atividades em andamento.
+Documentação e preparação para primeira avaliação
 
 ### Pendências principais
 
-Descrever os principais pontos ainda não resolvidos.
+É necessário um alinhamento das expectativas entre a equipe e os coordenadores do projeto
 
 ---
 
@@ -101,6 +101,7 @@ O planejamento semanal da equipe está disponível em:
 
 [`PLANEJAMENTO`](https://drive.google.com/file/d/15BtMBWF7vAIDOCuJR9LVeYASLSW_6Q8U/view?usp=sharing](https://drive.google.com/file/d/15BtMBWF7vAIDOCuJR9LVeYASLSW_6Q8U/view?usp=sharing))
 
+[PROGRESSO.md](docs/PROGRESSO.md)
 
 ## 6. Documentação técnica
 
@@ -109,7 +110,7 @@ O planejamento semanal da equipe está disponível em:
 - Arquitetura geral: ____________________
 - Projeto mecânico: [MECÂNICA.md](docs/MECÂNICA.md)
 - Diagrama elétrico: [ELETRÔNICA.md](docs/ELETRÔNICA.md)
-- Documentação do software: ____________________
+- Documentação do software: [SOFTWARE.md](docs/SOFTWARE.md)
 - Lista de materiais: [COMPONENTES.md](docs/COMPONENTES.md)
 - Registros de testes:[PROGRESSO.md](docs/PROGRESSO.md)
 
@@ -122,8 +123,8 @@ O planejamento semanal da equipe está disponível em:
 
 ### Comandos
 
-- Protocolo: UDP unicast
-- Porta: 5000
+- Protocolo: HTTP
+- Porta: 11500
 - Formato: JSON em UTF-8
 - Frequência nominal: 60 Hz
 
