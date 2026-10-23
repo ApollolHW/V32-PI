@@ -52,7 +52,7 @@ Além do circuito, o projeto prevê uma **câmera** para ver a imagem em tempo r
 
 O esquema foi feito no Fritzing.
 
-![Esquema do carro no Fritzing](https://github.com/ApollolHW/V32-PI/issues/2#issue-5796047169)
+![Esquema do carro no Fritzing](https://github.com/ApollolHW/V32-PI/issues/5#issue-6003781089)
 
 ```mermaid
 flowchart LR
