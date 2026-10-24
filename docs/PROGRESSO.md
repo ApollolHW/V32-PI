@@ -220,45 +220,49 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ## Concluído
 
-- ____________________
+- Avaliação de progresso 1
+- Documentação
+- Registro do progresso
 
 ## Não concluído
 
-- ____________________
+- 
 
 ## Problemas ou impedimentos
 
-- ____________________
+- "patinação" na aceleração (RESOLVIDO)
 
 ## Decisões técnicas da semana
 
-- ____________________
+- Mudar arquitetura de comunicação para WiFi proprio do esp
 
 ## Demonstração preparada para a AP1
 
-Descrever qual subsistema ou conjunto de subsistemas será demonstrado na bancada.
+Foi mostrado o sistema de comunicação temporário, tração, direção e alimentação.
 
 ## Situação geral na AP1
 
 ### Entregas concluídas
 
-- ____________________
+- Mecânica
+- Eletrônica
+- Comunicação
 
 ### Entregas parcialmente concluídas
 
-- ____________________
+- 
 
 ### Entregas não concluídas
 
-- ____________________
+- 
 
 ### Principais alterações em relação ao planejamento original
 
-- ____________________
+- Originalmente, era planejado já ter o chassi final, mas decidimos usar momentaneamente o fornecido pela organização do evento.
 
 ### Justificativas
 
-- ____________________
+- A mudança no chassi foi feita para poder testar outros subsistemas em bancadas e integrados
 
 ---
 
