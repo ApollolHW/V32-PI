@@ -266,6 +266,82 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 
 ---
 
+# Semana 6 — 21/10/2026 a 24/10/2026
+
+## Planejado
+
+- Definir arquitetura de vigilância
+- Organizar as documentações
+- Medir a corrente dos motores
+- Definir arquitetura mecânica
+- Definir chassi novo
+- Aprender comandos UDP e Web.
+- Definir como vai ser o controle no circuito final
+
+## Concluído
+
+- Arquitetura de vigilancia definida
+- Documentações organizadas
+- arquitetura mecânica definida
+- Chassi novo decidido
+- Controle definido
+
+## Não concluído
+
+-  Aprender comandos UDP e Web
+-  Medir a corrente dos motores
+
+## Problemas ou impedimentos
+
+- 
+
+## Decisões técnicas da semana
+
+- Usar ESPCAM
+- Chassi de carro de brinquedo
+- Case para pilhas com chave seletora
+- Direção com volante da organização
+- Tração de dois motores traseiros e haste de direção dianteira
+- Reformulação do controle HTML
+
+## Testes realizados
+
+| Teste | Resultado |
+| Case para pilhas | SUCESSO |
+| Nova interface de controle | SUCESSO |
+
+## Próximas ações
+# Semana 7 — 28/10/2026 a 31/10/2026
+
+## Planejado
+
+- 
+
+## Concluído
+
+- ...
+
+## Não concluído
+
+- ...
+
+## Problemas ou impedimentos
+
+- ...
+
+## Decisões técnicas da semana
+
+- ...
+
+## Testes realizados
+
+| Teste | Resultado |
+|---|---|
+| ... | ... |
+
+## Próximas ações
+
+- ...
 # Modelo para semanas posteriores
 
 Copiar o bloco abaixo sempre que uma nova semana for iniciada.
