@@ -285,6 +285,8 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 - arquitetura mecânica definida
 - Chassi novo decidido
 - Controle definido
+- Reformulação do controle HTML
+- Case para pilhas com chave seletora integrada
 
 ## Não concluído
 
@@ -302,7 +304,7 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 - Case para pilhas com chave seletora
 - Direção com volante da organização
 - Tração de dois motores traseiros e haste de direção dianteira
-- Reformulação do controle HTML
+
 
 ## Testes realizados
 
