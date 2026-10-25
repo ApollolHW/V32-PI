@@ -139,16 +139,13 @@ começar com A e evoluir para B.
 | D1 | Usar chassi 4WD de acrílico | Adotada | Disponível, barato e fácil de modificar |
 | D2 | 2 ou 4 motores | Em aberto (recomendado: 2) | Mesma velocidade máxima, menos peso e consumo |
 | D3 | Trocar redução 1:48 | Recomendada | Velocidade atual é muito baixa para corrida |
-| D4 | Trocar L298N por MOSFET | Recomendada | Menos perda e calor |
-| D5 | Direção por servo | Em aberto | Curvas mais rápidas que o diferencial |
+
 
 
 ## 8. Riscos e pendências
 
 | Risco | Impacto | Mitigação |
 |---|---|---|
-| Tensão 12V nos motores 3-6V | Motor queimado | Usar 2S 7,4V e limitar PWM |
-| Corrente de stall acima do limite do driver | Driver queimado | Medir stall e trocar driver se necessário |
 | Patinagem na arrancada | Perde tempo | Rampa de aceleração e pneu com mais aderência |
 | Perda de sinal na pista | Carro descontrolado | Failsafe e teste em distância real |
 
