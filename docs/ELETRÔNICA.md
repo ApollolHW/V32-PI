@@ -2,7 +2,6 @@
 
 Descrição do circuito elétrico e eletrônico do carro
 
-Complementa o [README.md](README.md)
 
 ## Índice
 
@@ -10,11 +9,9 @@ Complementa o [README.md](README.md)
 2. [Componentes](#2-componentes)
 3. [Esquema elétrico](#3-esquema-elétrico)
 4. [Alimentação](#4-alimentação)
-5. [Chave liga/desliga](#5-chave-ligadesliga)
-6. [Controle dos motores](#6-controle-dos-motores)
-7. [Ligações entre ESP32 e L298N](#7-ligações-entre-esp32-e-l298n)
-8. [Carregamento da bateria por USB-C](#8-carregamento-da-bateria-por-usb-c)
-9. [Câmera em tempo real](#9-câmera-em-tempo-real)
+5. [Controle dos motores](#6-controle-dos-motores)
+6. [Ligações entre ESP32 e L298N](#7-ligações-entre-esp32-e-l298n)
+7. [Câmera](#9-câmera-em-tempo-real)
 
 ---
 
@@ -34,8 +31,7 @@ Além do circuito, o projeto prevê uma **câmera** para ver a imagem em tempo r
 | Baterias | 2× 18650 de lítio em série (7,3 V) | Fonte de energia |
 | Suporte | Holder para baterias 18650 | Fixação e ligação das baterias |
 | Chave | Chave liga/desliga tipo gangorra | Liga e desliga o carro |
-| Carregamento | Dispositivo de carga por USB-C | Recarrega a bateria de lítio |
-| Câmera | ESP32-CAM ou outra câmera leve | Imagem em tempo real para pilotar |
+| Câmera | ESP32-CAM | Imagem em tempo real para pilotar |
 
 ### Motores
 
@@ -103,12 +99,12 @@ Leitura do esquema, na ordem dos fios do cabeçalho do L298N. A confirmar na mon
 - Motor A: terminais OUT1 e OUT2.
 - Motor B: terminais OUT3 e OUT4.
 
-## 8. Câmera em tempo real
+## 7. Câmera
 
-O carro terá uma câmera, para que o piloto veja a imagem em tempo real e controle o carro olhando a imagem.
+O carro terá uma EspCam, para que o piloto veja a imagem em tempo real e controle o carro olhando a imagem.
 
 | Item | Descrição |
 |---|---|
-| Câmera | ESP32-CAM ou outra câmera leve |
+| Câmera | ESP32-CAM |
 | Uso | Pilotar o carro olhando a imagem |
 | Critério | Solução de baixo custo e baixo peso (o FPV analógico foi considerado caro) |
