@@ -71,7 +71,7 @@ O carro é um modelo esportivo conversível, escala 1:18, com carroceria de plá
 | Peso original (com bateria original) | A medir |
 | Peso final pronta para correr | A medir (meta: o mínimo possível) |
 
-**Esboço mecânico:** (inserir a imagem em `docs/esboco-mecanico.png`). 
+[Esboço mecânico](https://github.com/ApollolHW/V32-PI/issues/6#issue-6018812961) 
 
 ## 4. Tração
 
