@@ -1,8 +1,8 @@
-# Mecânica (versão carro RC adaptado)
+# Mecânica 
 
-Documentação técnica do carro RC controlado por ESP32.
+Documentação técnica do carro 
 
-> Esta versão substitui o projeto anterior (chassi 4WD de acrílico com 2 motores e servo). O carro agora parte de um **carro de controle remoto pronto**, escala 1:18, com 2 motores nativos: um de tração no eixo traseiro e um na frente que faz o papel de direção. A eletrônica de controle original é substituída por ESP32 + ponte H.
+
 
 ## Índice
 
