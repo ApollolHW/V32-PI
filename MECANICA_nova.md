@@ -46,13 +46,13 @@ flowchart LR
     R --> E
 ```
 
-| Bloco | Função | Situação |
-|---|---|---|
+| Bloco | Função | 
+|---|---|
 | Carro RC 1:18 (conversível) | Carroceria, chassi, rodas e mecânica de tração/direção |
 | Motor de tração | Motor DC com caixa de redução no eixo traseiro | Original do carro |
-| Motor de direção | Motor DC na frente com retorno por mola (faz papel de servo) | Original do carro |
-| Placa receptora original | Recebia o sinal do controle 27 MHz | **Removida e substituída** |
-| Driver | Ponte H L298N (dois canais: tração e direção) 
+| Motor de direção | Motor DC na frente com retorno por mola (faz papel de servo) | 
+| Placa receptora original | Recebia o sinal do controle 27 MHz | 
+| Driver | Ponte H L298N (dois canais: tração e direção)|
 | Controlador | ESP32 | 
 | Alimentação | Bateria de lítio |
 | Controle remoto | Página no celular (Wi-Fi/WebSocket) | 
