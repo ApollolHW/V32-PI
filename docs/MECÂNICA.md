@@ -20,7 +20,7 @@ Documentação técnica do carro RC.
 
 ## 1. Objetivo e requisitos
 
-Construir um carro RC controlado por ESP32 para disputar uma corrida com curvas.
+Construir um carro RC controlado por ESP32 para disputar uma corrida.
 | Requisito | Meta |
 |---|---|
 | Velocidade em reta | A maior possível |
