@@ -210,7 +210,7 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 
 ---
 
-# Semana 5 — 14/10/2026 a 16/10/2026
+# Semana 5 — 14/10/2026 a 20/10/2026
 
 ## Planejado
 
@@ -266,7 +266,7 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 
 ---
 
-# Semana 6 — 21/10/2026 a 24/10/2026
+# Semana 6 — 21/10/2026 a 27/10/2026
 
 ## Planejado
 
