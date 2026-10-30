@@ -266,7 +266,7 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 
 ---
 
-# Semana 6 — 21/10/2026 a 27/10/2026
+# Semana 6 — 21/10/2026 a 28/10/2026
 
 ## Planejado
 
@@ -313,7 +313,7 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 | Nova interface de controle | SUCESSO |
 
 ## Próximas ações
-# Semana 7 — 28/10/2026 a 31/10/2026
+# Semana 7 — 29/10/2026 a 04/11/2026
 
 ## Planejado
 
