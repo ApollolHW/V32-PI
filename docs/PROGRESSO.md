@@ -347,7 +347,7 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 # Modelo para semanas posteriores
 
 
-# Semana 8 — 18/11/2026 a 25/11/2026
+# Semana 8 — 18/11/2026 a 24/11/2026
 
 ## Planejado
 - Definir o planejamento da semana.
