@@ -346,43 +346,45 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 - ...
 # Modelo para semanas posteriores
 
-Copiar o bloco abaixo sempre que uma nova semana for iniciada.
+
+# Semana 8 — 18/11/2026 a 25/11/2026
+
+## Planejado
+- Definir o planejamento da semana.
+- Configurar o ESP para reconhecer a câmera e o volante.
+
+## Concluído
+
+- ...
+
+## Não concluído
+
+- ...
+
+## Problemas ou impedimentos
+
+- ...
+
+## Decisões técnicas da semana
+
+- ...
+
+## Testes realizados
+
+| Teste | Resultado |
+|---|---|
+| ... | ... |
+
+## Próximas ações
+
 
 ```markdown
-# Semana 6 — 21/10/2026 a 24/10/2026
+Copiar o bloco abaixo sempre que uma nova semana for iniciada.
+
+# Semana 9 — 26/11/2026 a 02/12/2026
 
 ## Planejado
 
-- Fazer novo chassi e testar
-
-## Concluído
-
-- ...
-
-## Não concluído
-
-- ...
-
-## Problemas ou impedimentos
-
-- ...
-
-## Decisões técnicas da semana
-
-- ...
-
-## Testes realizados
-
-| Teste | Resultado |
-|---|---|
-| ... | ... |
-
-## Próximas ações
-# Semana 7 — 28/10/2026 a 31/10/2026
-
-## Planejado
-
-- 
 
 ## Concluído
 
@@ -408,5 +410,3 @@ Copiar o bloco abaixo sempre que uma nova semana for iniciada.
 
 ## Próximas ações
 
-- ...
-```
