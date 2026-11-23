@@ -317,35 +317,45 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 
 ## Planejado
 
-- 
+- Integrar os novos dispositivos
+- Testar o novo chassi
+- Testar o novo carro
 
 ## Concluído
 
-- ...
+- Integrar os novos dispositivos
+- Testar o novo chassi
+- Testar o novo carro
 
 ## Não concluído
 
-- ...
+- 
 
 ## Problemas ou impedimentos
 
-- ...
+- Dimensionamento
+- Mal contato
+- Funcionamento do motor dianteiro, problemas com a configuração
 
 ## Decisões técnicas da semana
 
-- ...
+- Retificar o chassi novo
+
 
 ## Testes realizados
 
 | Teste | Resultado |
-|---|---|
-| ... | ... |
+|Funcionamento do carro completo|*SUCESSO PARCIAL|
+| ESPCAM | SUCESSO |
+*: PRECISA DE MELHORIAS, POIS O CARRO ENFRENTA DESCONEXÃO PERIODICAMENTE
 
 ## Próximas ações
 
-- ...
-# Modelo para semanas posteriores
-
+- Planejamento
+- Retificar o chassi
+- Melhorar conexões
+- Estudar o controle via volante
+  
 
 # Semana 8 — 18/11/2026 a 24/11/2026
 
