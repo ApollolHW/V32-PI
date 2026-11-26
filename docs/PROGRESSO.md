@@ -360,41 +360,57 @@ Foi mostrado o sistema de comunicação temporário, tração, direção e alime
 # Semana 8 — 18/11/2026 a 24/11/2026
 
 ## Planejado
-- Definir o planejamento da semana.
-- Configurar o ESP para reconhecer a câmera e o volante.
-
+- Definir o planejamento da semana
+- Desbastar chassi e dimensionar fios
+- Configurar o ESP para reconhecer a câmera e o volante
+- Passar o circuito para o carro
+- Testar o carro com todos os componentes
 ## Concluído
+- Definir o planejamento da semana
+- Desbastar chassi e dimensionar fios
+- Configurar o ESP para reconhecer a câmera
+- Passar o circuito para o carro
 
-- ...
 
 ## Não concluído
-
-- ...
+- Testar o carro com todos os componentes 
+- Configurar o ESP para reconhecer o volante
+- Passar a câmera para o carro
 
 ## Problemas ou impedimentos
-
-- ...
+- Desconexões dos fios ao aumentar a velocidade do carro.
+- 
 
 ## Decisões técnicas da semana
 
-- ...
+- Soldar as ligações ruins para não haver desconexões no carro durante o uso
+- 
 
 ## Testes realizados
 
 | Teste | Resultado |
-|---|---|
-| ... | ... |
+|Circuito passado para o carro|SUCESSO PARCIAL|
+| Soldagem dos fios que estavam com conexão ruim | SUCESSO |
 
 ## Próximas ações
-
-
+- Passar a câmera para o carro pronto
+- Testar o carro completo
+- Configurar o ESP para reconhecer o volante
+- Alinhar o carro para se manter reto em altas velocidades
+- Soldar as ligações ruins para não haver desconexões no carro durante o uso.
+- Procurar possíveis melhorias para a velocidade do carro
 ```markdown
 Copiar o bloco abaixo sempre que uma nova semana for iniciada.
 
 # Semana 9 — 26/11/2026 a 02/12/2026
 
 ## Planejado
-
+- Passar a câmera para o carro pronto
+- Testar o carro completo
+- Configurar o ESP para reconhecer o volante
+- Alinhar o carro para se manter reto em altas velocidades
+- Soldar as ligações ruins para não haver desconexões no carro durante o uso.
+- Procurar possíveis melhorias para a velocidade do carro
 
 ## Concluído
 
